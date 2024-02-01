@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.nav ul{
+    display: flex;
+    
+}
+
+.nav button{
+padding: 10px 20px;
+border: none;
+}
+.nav .btn1{
+    background-color: #A27B5C;
+    color: white;
+    
+}
+.nav .btn2{
+    border: 1px solid #A27B5C ;
+}
+
+.nav ul li{
+    list-style: none;
+    margin: 0 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.inroduction-main{
+
+    padding: 30px ;
+
+    overflow-x: hidden;
+    background-color: #FCF7EF;
+}
+.inroduction-main img{
+    margin: 0 50px;
+    width: 1192px;
+
+   
+}
+.intro-header{
+    margin: 50px 0;
+    text-align: center;
+}
+.into-date{
+    display: flex;
+    margin: 0 50px;
+}
+.intro-info{
+    margin: 0 50px;
+}
+
+.cards{
+
+    border-bottom:1px solid black ;
+    border-top: 1px solid black ;
+    /* padding-right: 300px; */
+    padding: 20px ;
+    /* background-color: #A27B5C; */
+    margin: 20px 0;
+    display: flex;
+    width: 80%;
+}
+
+.main-cards{
+    
+    padding: 0 50px;
+}
+.cards div {
+    margin: 0 20px;
+}
+.load-btn{
+
+    text-align: center;
+}
+
+.load-more {
+    border: 1px solid #A27B5C ;
+    padding: 10px 20px;
+
+
+    border-radius: 3px;
+}
+
+.footer{
+    margin-top:30px ;
+    color: white;
+    padding: 60px;
+    background-color: black;
+}
+
+.footer-header{
+    margin: 30px 0;
+    text-align: center;
+    color: white;
+}
+
+.right-side-icons{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.footer-icons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}

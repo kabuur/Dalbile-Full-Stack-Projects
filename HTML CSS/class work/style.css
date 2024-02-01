@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    width: 80vw;
+  
+ 
+    margin: 0 auto;
+}
+
+.main  .card{
+    width: 400px;
+
+    /* background-color: blue; */
+    
+}
+p{
+    margin: 0 10px;
+    /* background-color: red; */
+}
+.card img{
+    width: 330px;
+}
