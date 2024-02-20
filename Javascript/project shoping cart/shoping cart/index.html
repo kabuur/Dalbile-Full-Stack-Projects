@@ -9,24 +9,22 @@
 
 </head>
 <body>
-    <div class="w-[90%] mx-auto flex">
+    <div class="w-[90%] mx-auto mt-2 ">
 
-        <h1 class="text-center">
+        <h1 class="text-center text-3xl font-semibold text-blue-950">
             Ahmed Fruid Shop
         </h1>
-
-
-        <div class= "w-[70%] bg-red-400">
-            <h1>Products</h1>
-            <div class="products flex flex-wrap w-full justify-around" id = "products"></div>
-            <h1>Shoping carts</h1>
-            <div class="carts flex justify-around flex-wrap" id="carts"></div>
-        </div>
-
-        <div class="w-[30%] bg-black">hh</div>
-
-
-
+        <div class="flex w-full gap-3 justify-between text-blue-950 font-semibold">
+            <div class= "w-[60%]">
+                <h1 class="text-2xl">Products</h1>
+                <div class="products  text-blue-950 font-semibold flex gap-3 flex-wrap w-full justify-between" id = "products"></div>
+                <h1 class="text-blue-950 font-semibold">Shoping carts</h1>
+                <div id="carts" class=" text-blue-950 font-semiboldcarts flex gap-3 justify-between flex-wrap" id="carts"></div>
+            </div>
+            <div class="w-[30%] text-blue-950 font-semibold bg-gray-300 hidden checkout px-9 py-9 rounded-md">
+               
+            </div>
+    </div>
     </div>
 
     <script src="./front.js" ></script>
