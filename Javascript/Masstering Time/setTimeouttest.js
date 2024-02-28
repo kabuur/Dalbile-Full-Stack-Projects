@@ -13,8 +13,6 @@ if(count == 1){
     clearTimeout(timing)
 }
 
-
-
 console.log("3: waan fcnahay")
 
 
